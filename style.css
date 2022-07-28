@@ -1,0 +1,146 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: hsl(24, 100%, 97%);
+    background-color: black;
+}
+
+#background {
+    background-image: url("./images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#textSection {
+    background-color: black;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* hedear */
+
+#navig li{
+    text-decoration: underline;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+#navig {
+    float: right;
+    margin-right: 15px;
+}
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid seashell;
+    padding: 1px;
+    background-color:black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+main{
+    position:relative;
+    top: 64px;
+}
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+
+/*
+*/
+
+#middle {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.photos img{
+    height: 200px;
+    width: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.photos h4{
+    margin-top: 10px;
+}
+#middleText {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/* bottom */
+
+
+
+#bottom {
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 1000px;
+    min-height: 500px;
+    padding: 50px;
+}
+#bottom h2 {
+    text-align: center;
+}
+#bott {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#left, #center, #right {
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    margin-top: 0px;
+}
+.bold {
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    height: 200px;
+}
+
+#footer h2 {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+}
